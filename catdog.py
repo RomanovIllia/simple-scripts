@@ -20,4 +20,4 @@ def human_years_cat_years_dog_years(human_years):
     return [human_years,catYears,dogYears]        
 human_years_cat_years_dog_years(input("Insert human years: "))
 
-
+# solution for https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b
