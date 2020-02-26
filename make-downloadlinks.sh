@@ -28,7 +28,7 @@ read days
 cd 
 source ~/aws_access_local
 
-before=$(curl --silent -X GET https://jenkins.hq.datarobot.com/job/Generate_License_Key/api/json?pretty=true\
+before=$(curl --silent -X GET https://jenkins.xxxxxxx.com/job/xxxx/xxxxx/json?pretty=true\
   --user $USER:$TOKEN) 
 
 curl --silent -X POST https://$USER@jenkins.xxxxxx.com/xxx/xxxx/xx \
